@@ -321,6 +321,8 @@ export default function App() {
               selectedServiceFilter={selectedServiceFilter}
               onClearServiceFilter={() => setSelectedServiceFilter(null)}
               onSelectRegionFilter={setSelectedRegionFilter}
+              dailyRecords={dailyRecords}
+              activeMonth={activeTab}
             />
           </div>
         ) : null}
